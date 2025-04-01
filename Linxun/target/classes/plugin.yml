@@ -1,0 +1,9 @@
+name: Linxun
+version: '1.0-SNAPSHOT'
+main: org.examplex.linxun.Linxun
+api-version: "1.12"
+authors: [LinXun]
+description: "定时清理服务器掉落物"
+commands:
+  linxun_cleanItem:
+    usage: "/linxun_cleanItem [start|stop|clean|status]"
